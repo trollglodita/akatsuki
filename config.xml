@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        xmlns:android   = "http://schemas.android.com/apk/res/android"
+        id          = "com.phonegap.launchpad"
+        versionCode = "1" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Launchpad Mashup</name>
+
+    <description>
+        Launchpad tool for doing Mashups 
+    </description>
+
+    <author href="https://www.trollglodita.com" email="juancrismu@gmail.com">
+       Rodrigo Frontend
+    </author>
+
+    <gap:platform name="android" />
+
+    <preference name="orientation" value="portrait" />
+
+	<icon src="res/icon-36.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="res/icon-48.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="res/icon-72.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="res/icon-96.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="res/icon-144.png" gap:platform="android" gap:density="xxhdpi" />
+
+	<gap:splash src="res/splash-ldpi.png" gap:platform="android" gap:density="ldpi"/>
+	<gap:splash src="res/splash-mdpi.png" gap:platform="android" gap:density="mdpi"/>
+	<gap:splash src="res/splash-hdpi.png" gap:platform="android" gap:density="hdpi"/>
+	<gap:splash src="res/splash-xhdpi.png" gap:platform="android" gap:density="xhdpi"/>
+
+
+	<feature name="https://api.phonegap.com/1.0/network" />
+
+	<gap:plugin name="org.apache.cordova.media" version="0.2.8" />
+    <!-- <gap:plugin name="org.apache.cordova.file" version="1.0.1" /> -->
+
+    <access origin="*" subdomains="true" />
+</widget>
+
+
+
+
+
