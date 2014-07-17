@@ -22,11 +22,11 @@
 
     <preference name="orientation" value="portrait" />
 
-	<icon src="res/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
-	<icon src="res/icon-48-mpdi.png" gap:platform="android" gap:density="mdpi" />
-	<icon src="res/icon-72-hpdi.png" gap:platform="android" gap:density="hdpi" />
-	<icon src="res/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
-	<icon src="res/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+	<icon src="res/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+	<icon src="res/icon-48-mpdi.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="res/icon-72-hpdi.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="res/icon-96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<icon src="res/icon-144-xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
 
 	<gap:splash src="res/splash-ldpi.png" gap:platform="android" gap:density="ldpi"/>
 	<gap:splash src="res/splash-mdpi.png" gap:platform="android" gap:density="mdpi"/>
