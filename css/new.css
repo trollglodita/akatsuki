@@ -17,20 +17,15 @@ body {
 }
 
 
-#map_canvas {
-    height: 100%;
-}
-
-
 section#load, .ui-page .ui-page-active {
   text-shadow: 0,0,0;
 }
 
 
-.ui-input-text, .ui-body-inherit, .ui-corner-all, .ui-shadow-inset {
+/*.ui-input-text, .ui-body-inherit, .ui-corner-all, .ui-shadow-inset {
   opacity: 0;
 
-}
+}*/
 
 
 
