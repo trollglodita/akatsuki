@@ -1,4 +1,4 @@
-// document.addEventListener("deviceready", function () {
+document.addEventListener("deviceready", function () {
 	function scale( width, height, padding, border ) {
 	    var scrWidth = $( window ).width() - 30,
 	        scrHeight = $( window ).height() - 30,
@@ -137,7 +137,7 @@
 	};
 	
 	
-// },false);
+},false);
 
 
 
