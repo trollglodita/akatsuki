@@ -70,7 +70,7 @@
 	    this.__el.style.width = window.innerWidth/3.1 + 'px';
 	    this.__el.style.height = window.innerWidth/3.1 + 'px';
 
-	    // this.audio = new Media(window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1) + "buttons/boton" + src + ".mp3");
+	    this.audio = new Media(window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1) + "buttons/boton" + src + ".mp3");
 
 	    itemElement.addEventListener('touchstart', this.toggleActiveState.bind(this));
 	    itemElement.addEventListener('touchend', this.toggleActiveState.bind(this));
@@ -87,10 +87,10 @@
 	        set: function (value) {
 	            if (value) {
 	                this.__el.classList.add("active");
-	                // this.audio.play();
+	                this.audio.play();
 	            } else {
 	                this.__el.classList.remove("active");
-	                // this.audio.stop();
+	                this.audio.stop();
 	            }
 	        }
 	    }
