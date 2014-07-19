@@ -21,12 +21,14 @@ section#load, .ui-page .ui-page-active {
   text-shadow: 0,0,0;
 }
 
-
-/*.ui-input-text, .ui-body-inherit, .ui-corner-all, .ui-shadow-inset {
+/*, .ui-corner-all*/
+.ui-input-text, .ui-body-inherit, .ui-shadow-inset {
   opacity: 0;
+}
 
-}*/
-
+.ui-header {
+  height: 60px;
+}
 
 
 .hide {
